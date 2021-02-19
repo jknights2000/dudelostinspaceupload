@@ -7,6 +7,8 @@ gdjs.EndCode.GDdancingguyObjects1= [];
 gdjs.EndCode.GDdancingguyObjects2= [];
 gdjs.EndCode.GDBackObjects1= [];
 gdjs.EndCode.GDBackObjects2= [];
+gdjs.EndCode.GDNewObjectObjects1= [];
+gdjs.EndCode.GDNewObjectObjects2= [];
 
 gdjs.EndCode.conditionTrue_0 = {val:false};
 gdjs.EndCode.condition0IsTrue_0 = {val:false};
@@ -41,6 +43,8 @@ gdjs.EndCode.GDdancingguyObjects1.length = 0;
 gdjs.EndCode.GDdancingguyObjects2.length = 0;
 gdjs.EndCode.GDBackObjects1.length = 0;
 gdjs.EndCode.GDBackObjects2.length = 0;
+gdjs.EndCode.GDNewObjectObjects1.length = 0;
+gdjs.EndCode.GDNewObjectObjects2.length = 0;
 
 gdjs.EndCode.eventsList0(runtimeScene);
 return;
