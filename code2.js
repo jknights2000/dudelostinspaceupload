@@ -1197,6 +1197,26 @@ gdjs.UranusCode.eventsList7(runtimeScene);} //End of subevents
 
 gdjs.UranusCode.condition0IsTrue_0.val = false;
 {
+gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "t");
+}if (gdjs.UranusCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(12).setNumber(1);
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.UranusCode.condition0IsTrue_0.val = false;
+{
 gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.UranusCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "leveltimer");
@@ -1210,9 +1230,14 @@ gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 
 
 gdjs.UranusCode.condition0IsTrue_0.val = false;
+gdjs.UranusCode.condition1IsTrue_0.val = false;
 {
 gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1, "leveltimer");
-}if (gdjs.UranusCode.condition0IsTrue_0.val) {
+}if ( gdjs.UranusCode.condition0IsTrue_0.val ) {
+{
+gdjs.UranusCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(12)) != 1;
+}}
+if (gdjs.UranusCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).sub(1);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "leveltimer");
 }}
@@ -1392,15 +1417,6 @@ gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }{runtimeScene.getGame().getVariables().getFromIndex(1).sub(1);
 }{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Uranus");
 }}
-
-}
-
-
-{
-
-
-{
-}
 
 }
 
