@@ -854,9 +854,6 @@ if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.NeptuneCode.GDBlueEnemy1Objects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDBlueEnemy1Objects1[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.NeptuneCode.GDBlueEnemy1Objects1.length ;i < len;++i) {
-    gdjs.NeptuneCode.GDBlueEnemy1Objects1[i].deleteFromScene(runtimeScene);
-}
 }{for(var i = 0, len = gdjs.NeptuneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDPlayerObjects1[i].getBehavior("PlatformerObject").setCanJump();
 }
@@ -884,7 +881,7 @@ gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).sub(1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Uranus");
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Neptune");
 }}
 
 }
