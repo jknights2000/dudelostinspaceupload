@@ -563,7 +563,7 @@ gdjs.NeptuneCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 if (gdjs.NeptuneCode.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).sub(1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Uranus");
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Neptune");
 }}
 
 }
@@ -588,7 +588,7 @@ gdjs.NeptuneCode.GDPlayerObjects1.length = k;}if ( gdjs.NeptuneCode.condition0Is
 gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) == 1;
 }}
 if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Uranus");
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Neptune");
 }}
 
 }
