@@ -487,7 +487,7 @@ gdjs.copyArray(runtimeScene.getObjects("lives"), gdjs.NeptuneCode.GDlivesObjects
 gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.NeptuneCode.GDscoreObjects1);
 gdjs.copyArray(runtimeScene.getObjects("timer"), gdjs.NeptuneCode.GDtimerObjects1);
 {for(var i = 0, len = gdjs.NeptuneCode.GDscoreObjects1.length ;i < len;++i) {
-    gdjs.NeptuneCode.GDscoreObjects1[i].setString("Score:" + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0))) + "/ " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))));
+    gdjs.NeptuneCode.GDscoreObjects1[i].setString("Amount of bolts" + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0))) + "/ " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))));
 }
 }{for(var i = 0, len = gdjs.NeptuneCode.GDlivesObjects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDlivesObjects1[i].setString("X" + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1))));
