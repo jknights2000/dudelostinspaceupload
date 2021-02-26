@@ -1391,11 +1391,17 @@ gdjs.copyArray(runtimeScene.getObjects("GreenLaser09"), gdjs.NeptuneCode.GDGreen
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.NeptuneCode.GDPlayerObjects1);
 
 gdjs.NeptuneCode.condition0IsTrue_0.val = false;
+gdjs.NeptuneCode.condition1IsTrue_0.val = false;
 {
 gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NeptuneCode.mapOfGDgdjs_46NeptuneCode_46GDGreenLaser09Objects1Objects, gdjs.NeptuneCode.mapOfGDgdjs_46NeptuneCode_46GDPlayerObjects1Objects, false, runtimeScene, false);
-}if (gdjs.NeptuneCode.condition0IsTrue_0.val) {
+}if ( gdjs.NeptuneCode.condition0IsTrue_0.val ) {
+{
+gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) != 1;
+}}
+if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).sub(1);
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Neptune");
 }}
 
 }
@@ -1407,12 +1413,17 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.NeptuneCode.GDPlayerObjec
 gdjs.copyArray(runtimeScene.getObjects("RedLaser08"), gdjs.NeptuneCode.GDRedLaser08Objects1);
 
 gdjs.NeptuneCode.condition0IsTrue_0.val = false;
+gdjs.NeptuneCode.condition1IsTrue_0.val = false;
 {
 gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NeptuneCode.mapOfGDgdjs_46NeptuneCode_46GDRedLaser08Objects1Objects, gdjs.NeptuneCode.mapOfGDgdjs_46NeptuneCode_46GDPlayerObjects1Objects, false, runtimeScene, false);
-}if (gdjs.NeptuneCode.condition0IsTrue_0.val) {
+}if ( gdjs.NeptuneCode.condition0IsTrue_0.val ) {
+{
+gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) != 1;
+}}
+if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).sub(1);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Uranus");
+}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Neptune");
 }}
 
 }
