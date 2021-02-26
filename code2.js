@@ -915,6 +915,7 @@ if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 }{for(var i = 0, len = gdjs.NeptuneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDPlayerObjects1[i].addPolarForce(180, 2, 1);
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "icy");
 }}
 
 }
@@ -941,6 +942,7 @@ if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 }{for(var i = 0, len = gdjs.NeptuneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDPlayerObjects1[i].addPolarForce(0, 2, 1);
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "icy");
 }}
 
 }
@@ -963,6 +965,22 @@ gdjs.NeptuneCode.conditionTrue_1.val = ((( gdjs.NeptuneCode.GDPlayerObjects1.len
 }}
 if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.NeptuneCode.GDPlayerObjects1 */
+{for(var i = 0, len = gdjs.NeptuneCode.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.NeptuneCode.GDPlayerObjects1[i].clearForces();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.NeptuneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 2, "icy");
+}if (gdjs.NeptuneCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.NeptuneCode.GDPlayerObjects1);
 {for(var i = 0, len = gdjs.NeptuneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.NeptuneCode.GDPlayerObjects1[i].clearForces();
 }
