@@ -20,7 +20,7 @@ gdjs.Title_32screenCode.condition0IsTrue_0.val = false;
 {
 gdjs.Title_32screenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 }if (gdjs.Title_32screenCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "intro:U", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "intro:N", false);
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(3);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }}
