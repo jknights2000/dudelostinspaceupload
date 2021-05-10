@@ -1806,6 +1806,15 @@ gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBe
 }
 
 
+{
+
+
+{
+}
+
+}
+
+
 };
 
 gdjs.NeptuneCode.func = function(runtimeScene) {
