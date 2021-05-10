@@ -1570,7 +1570,7 @@ if (gdjs.JupiterCode.condition1IsTrue_0.val) {
 
 gdjs.JupiterCode.condition0IsTrue_0.val = false;
 {
-gdjs.JupiterCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "F1");
+gdjs.JupiterCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
 }if (gdjs.JupiterCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

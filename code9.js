@@ -1674,7 +1674,7 @@ if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 
 gdjs.NeptuneCode.condition0IsTrue_0.val = false;
 {
-gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "F1");
+gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
 }if (gdjs.NeptuneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

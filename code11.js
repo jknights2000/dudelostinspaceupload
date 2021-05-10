@@ -1506,7 +1506,7 @@ if (gdjs.SaturnCode.condition1IsTrue_0.val) {
 
 gdjs.SaturnCode.condition0IsTrue_0.val = false;
 {
-gdjs.SaturnCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "F1");
+gdjs.SaturnCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
 }if (gdjs.SaturnCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

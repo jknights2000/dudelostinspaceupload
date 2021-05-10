@@ -1682,7 +1682,7 @@ if (gdjs.UranusCode.condition1IsTrue_0.val) {
 
 gdjs.UranusCode.condition0IsTrue_0.val = false;
 {
-gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "F1");
+gdjs.UranusCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
 }if (gdjs.UranusCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }
