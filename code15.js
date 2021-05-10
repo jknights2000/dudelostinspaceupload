@@ -1707,7 +1707,7 @@ gdjs.VenusCode.eventsList14(runtimeScene);} //End of subevents
 
 gdjs.VenusCode.condition0IsTrue_0.val = false;
 {
-gdjs.VenusCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
+gdjs.VenusCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "d");
 }if (gdjs.VenusCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

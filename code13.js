@@ -1764,7 +1764,7 @@ gdjs.MarzCode.eventsList14(runtimeScene);} //End of subevents
 
 gdjs.MarzCode.condition0IsTrue_0.val = false;
 {
-gdjs.MarzCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
+gdjs.MarzCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "d");
 }if (gdjs.MarzCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

@@ -1662,7 +1662,7 @@ gdjs.EarthCode.eventsList14(runtimeScene);} //End of subevents
 
 gdjs.EarthCode.condition0IsTrue_0.val = false;
 {
-gdjs.EarthCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
+gdjs.EarthCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "d");
 }if (gdjs.EarthCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }

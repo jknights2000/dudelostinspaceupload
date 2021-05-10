@@ -1713,7 +1713,7 @@ gdjs.MercuryCode.eventsList15(runtimeScene);} //End of subevents
 
 gdjs.MercuryCode.condition0IsTrue_0.val = false;
 {
-gdjs.MercuryCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f");
+gdjs.MercuryCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "d");
 }if (gdjs.MercuryCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }
