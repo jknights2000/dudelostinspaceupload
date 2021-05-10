@@ -820,7 +820,7 @@ if (gdjs.MercuryCode.condition1IsTrue_0.val) {
 
 gdjs.MercuryCode.condition0IsTrue_0.val = false;
 {
-gdjs.MercuryCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 0;
+gdjs.MercuryCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) <= 0;
 }if (gdjs.MercuryCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Dead", true);
 }}

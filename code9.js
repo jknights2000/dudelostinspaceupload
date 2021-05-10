@@ -749,7 +749,7 @@ gdjs.NeptuneCode.GDPlayerObjects1.length = k;}if ( gdjs.NeptuneCode.condition0Is
 gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) != 1;
 }if ( gdjs.NeptuneCode.condition1IsTrue_0.val ) {
 {
-gdjs.NeptuneCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) != 0;
+gdjs.NeptuneCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) != 0;
 }}
 }
 if (gdjs.NeptuneCode.condition2IsTrue_0.val) {
@@ -790,14 +790,9 @@ if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
 
 
 gdjs.NeptuneCode.condition0IsTrue_0.val = false;
-gdjs.NeptuneCode.condition1IsTrue_0.val = false;
 {
-gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 0;
-}if ( gdjs.NeptuneCode.condition0IsTrue_0.val ) {
-{
-gdjs.NeptuneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) == 0;
-}}
-if (gdjs.NeptuneCode.condition1IsTrue_0.val) {
+gdjs.NeptuneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) <= 0;
+}if (gdjs.NeptuneCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Dead", true);
 }}
 

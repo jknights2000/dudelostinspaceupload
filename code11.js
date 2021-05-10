@@ -1302,8 +1302,8 @@ gdjs.SaturnCode.condition0IsTrue_0.val = false;
 {
 gdjs.SaturnCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)) == 0;
 }if (gdjs.SaturnCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Saturn", false);
-}{runtimeScene.getVariables().getFromIndex(1).sub(1);
+{runtimeScene.getVariables().getFromIndex(1).sub(1);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Saturn", false);
 }}
 
 }
