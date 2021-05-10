@@ -916,6 +916,7 @@ gdjs.copyArray(runtimeScene.getObjects("gamelife"), gdjs.SaturnCode.GDgamelifeOb
 gdjs.copyArray(runtimeScene.getObjects("left"), gdjs.SaturnCode.GDleftObjects1);
 gdjs.copyArray(runtimeScene.getObjects("notcomplete"), gdjs.SaturnCode.GDnotcompleteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("right"), gdjs.SaturnCode.GDrightObjects1);
+gdjs.copyArray(runtimeScene.getObjects("rockcatch"), gdjs.SaturnCode.GDrockcatchObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setString("Left");
 }{for(var i = 0, len = gdjs.SaturnCode.GDrightObjects1.length ;i < len;++i) {
     gdjs.SaturnCode.GDrightObjects1[i].hide();
@@ -945,6 +946,9 @@ gdjs.copyArray(runtimeScene.getObjects("right"), gdjs.SaturnCode.GDrightObjects1
 }
 }{for(var i = 0, len = gdjs.SaturnCode.GDNewObject3Objects1.length ;i < len;++i) {
     gdjs.SaturnCode.GDNewObject3Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.SaturnCode.GDrockcatchObjects1.length ;i < len;++i) {
+    gdjs.SaturnCode.GDrockcatchObjects1[i].hide();
 }
 }
 { //Subevents
